@@ -30,7 +30,7 @@ session = Session(engine)
 #################################################
 # Flask Setup
 #################################################
-app = Flask(App)
+app= Flask(App)
 
 
 
@@ -138,5 +138,5 @@ def stats(start=None, end=None):
     return jsonify(temps=temps)
 
 
-if App == '__main__':
+if __App__ == "__main__":
     app.run()
